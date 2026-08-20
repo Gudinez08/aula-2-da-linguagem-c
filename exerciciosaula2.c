@@ -121,15 +121,16 @@ int main()
     int existencia = verificacaotriangulo(a, b, c);
     resultadotriangulo(existencia);
 
-    printf("Exercicio 5: sorteio \n");
+    printf("Exercicio 5, 6 e 7: sorteio \n");
 
     int numeroSorteado = sortearNumero();
     int palpiteUsuario;
     int tentativas = 0;
+    int maximoTentativas = 5;
     int acertou = 0;
 
     while (tentativas < 5 && !acertou) {
-        printf("Tentativa %d de %d:\n", tentativas + 1, MAX_TENTATIVAS);
+        printf("Tentativa %d de %d:\n", tentativas + 1, maximoTentativas);
         palpiteUsuario = obterPalpite();
         tentativas++;
         acertou = verificarPalpite(palpiteUsuario, numeroSorteado);
