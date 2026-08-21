@@ -34,10 +34,9 @@ int sortearNumero() {
 }
 
 int obterPalpite() {
-    int palpite;
+    int palpite = 0; // Inicializada com 0 para forçar a entrada no loop
 
     while (palpite < 1 || palpite > 100) {
-
         printf("Digite o seu palpite (entre 1 e 100): ");
         scanf("%d", &palpite);
         
