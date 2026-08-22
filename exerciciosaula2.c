@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void exibesituacaoacademica (float media, int porcentagem) {
     if (porcentagem < 75) {
@@ -122,6 +123,7 @@ int main()
 
     printf("Exercicio 5, 6 e 7: sorteio \n");
 
+    srand(time(NULL));
     int numeroSorteado = sortearNumero();
     int palpiteUsuario;
     int tentativas = 0;
