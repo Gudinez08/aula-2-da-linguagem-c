@@ -22,7 +22,7 @@ int main()
     printf("%d é o valor da soma \n", soma);
     printf("%d é o valor da subtração \n", sub);
     printf("%d é o valor da multiplicação \n", mult);
-    printf("%f é o valor da divisão \n", div);
+    printf("%.2f é o valor da divisão \n", div);
 
     return 0;
 }
