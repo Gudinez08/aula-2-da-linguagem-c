@@ -9,7 +9,7 @@ int verificacaotriangulo (float a, float b, float c) {
 
 void resultadotriangulo (int existencia) {
     if (existencia == 1) {
-        printf("Os lados foram um triangulo \n");
+        printf("Os lados formam um triangulo \n");
     }
     else {
         printf("os lados nao formam um triangulo \n");
